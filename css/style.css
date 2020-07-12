@@ -1,3 +1,4 @@
+/* CSS reset for positioning  */
 html {
   box-sizing: border-box;
 }
@@ -24,11 +25,11 @@ a:hover{
     text-decoration: underline;
 }
 
-.top-links{
+.header-links{
     color: black;
 }
 
-.top-left{
+.header-left{
     opacity: 0.8;
 }
 
@@ -56,11 +57,11 @@ footer{
     bottom: 0;
 }
 
-.bottom-links{
+.footer-links{
     color: #5f6368;
 }
 
-.top-left, .bottom-left{
+.header-left, .footer-left{
     margin-right: auto;
 }
 
@@ -131,7 +132,7 @@ footer{
     border-color: rgba(223,225,229,0);
 }
 
-.magnifying-glass{
+.mag-glass{
     display: inline-block;
     position: absolute;
     height: 20px;
@@ -155,7 +156,7 @@ footer{
     cursor: pointer;
 }
 
-.buttons{
+.btns{
     display:flex;
     width: 487px;
     height: 36px;
